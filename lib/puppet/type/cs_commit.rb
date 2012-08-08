@@ -1,4 +1,4 @@
-require 'ruby-debug'
+#require 'ruby-debug'
 
 module Puppet
   newtype(:cs_commit) do
@@ -51,7 +51,7 @@ module Puppet
       end
 
       p autos.size
-      debugger
+#      debugger
       autos
     end
   end
